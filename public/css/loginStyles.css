@@ -1,21 +1,21 @@
 /* login.html stylesheet */
 .container {
-	position:absolute;
-	width: 350px;
-	height: 210px;
-	border:1px solid black;
-	top:0;
-	bottom:0;
-	left:0;
-	right:0;
-	margin:auto;
+	width: 500px;
+    height: 325px;
+    border: 1px solid #66CCCC;
+    margin: auto;
 }
 
 .titlePanel {
 	position: relative;
-	width: 350px;
 	height: 50px;
-	background-color: rgb(0,0,0);
+	background-color: #2F4F4F;
+}
+
+.titlePanel > img{
+	position: absolute;
+    top: 10px;
+    left: 10px;
 }
 
 .titlePanel > h1 {
@@ -27,16 +27,16 @@
 	margin: 0;
 	padding:0;
 	top:15px;
-	left: 10px;
+	left: 55px;
 }
 
 .loginButton {
-	position: relative;
-	height: 150px;
+	position: fixed;
+    left: 36%;
+    top: 19%;
+    width: 300px;
 }
 
 #loginBtnImg {
-	position: relative;
-	top: 1px;
-	width: 350px;
+	float: left
 }

@@ -2,8 +2,8 @@
 	position:absolute;
     width: 960px;
     height: 687px;
-	border:1px solid black;
-	top:0;
+	border:1px solid #66CCCC;
+	top:42px;
 	bottom:0;
 	left:0;
 	right:0;
@@ -14,7 +14,13 @@
 	position: relative;
 	width: 960px;
 	height: 50px;
-	background-color: rgb(0,0,0);
+	background-color: #2F4F4F;
+}
+
+.titlePanel > img {
+	top: 6px;
+    position: absolute;
+    left: 5px;
 }
 
 .titlePanel > h1 {
@@ -26,7 +32,7 @@
 	margin: 0;
 	padding:0;
 	top:15px;
-	left: 10px;
+	left: 55px;
 }
 
 .controls {
