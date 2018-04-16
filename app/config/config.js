@@ -1,5 +1,5 @@
 'use strict';
-
+console.log(process.env)
 if(process.env.NODE_ENV === 'production'){
 
     let redis_URI = require('url').parse(process.env.REDIS_URL);
